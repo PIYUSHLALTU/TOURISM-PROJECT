@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Landmark</title>
+    <link rel="stylesheet"  href="/css/bootstrap.min.css">
+	<link rel="stylesheet"  href="/css/style.css">
+
+	<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-core.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://js.api.here.com/v3/3.1/mapsjs-service.js" type="text/javascript" charset="utf-8"></script>
+	<script src="https://js.api.here.com/v3/3.1/mapsjs-ui.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.1/mapsjs-ui.css" />
+
+</head>
+<body>
+    <header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  			<div class="container">
+  				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+  			     <span class="navbar-toggler-icon"></span>
+  				</button>
+ 				 <a class="navbar-brand" href="/">Let's Travel!</a>
+
+			  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+   			 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+    		  <li class="nav-item active">
+      		  <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+     		 </li>
+     		 <li class="nav-item">
+     	 	  <a class="nav-link" href="#">About Us</a>
+     		 </li>
+     		 <li class="nav-item">
+      		  <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contacts</a>
+			  </li>
+			  <li class="nav-item">
+      		  <a class="nav-link" href="/admin" tabindex="-1" aria-disabled="true">Admin Page</a>
+     		 </li>
+   			</ul>
+    		<form class="form-inline my-2 my-lg-0 call-me-form">
+     	 	<input class="form-control mr-sm-2" type="search" placeholder="Phone number" aria-label="Search">
+    	  	<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Call me</button>
+    		</form>
+  			</div>
+  			</div><!--container-->
+		</nav>
+    </header>
+    <main>
+        <div class="container sight-container">
+            <h1>Eiffel Tower</h1>
+            <hr>
+            <img src="\images\img-1.jpg" alt="big-ben">
+            <hr>
+            <p class="date">Wed Oct 30 2019 20:57:13 GMT+0000 (Coordinated Universal Time)</p>
+            <hr>
+            <p class="text">The Eiffel Tower is a wrought iron lattice tower on the Champ de Mars in Paris, France. The design of the Eiffel Tower is attributed to Maurice Koechlin and Émile Nouguier, two senior engineers working for the Compagnie des Établissements Eiffel. It was envisioned after discussion about a suitable centrepiece for the proposed 1889 Exposition Universelle, a world&#39;s fair to celebrate the centennial of the French Revolution. Eiffel openly acknowledged that inspiration for a tower came from the Latting Observatory built in New York City in 1853.[4] In May 1884, working at home, Koechlin made a sketch of their idea, described by him as &#34;a great pylon, consisting of four lattice girders standing apart at the base and coming together at the top, joined together by metal trusses at regular intervals&#34;.[5] Eiffel initially showed little enthusiasm, but he did approve further study, and the two engineers then asked Stephen Sauvestre, the head of company&#39;s architectural department, to contribute to the design. Sauvestre added decorative arches to the base of the tower, a glass pavilion to the first level, and other embellishments.</p>
+            <div class="map"></div>
+        </div>
+	</main>
+	
+	<script src="/js/maps.js"></script>
+</body>
+</html>
